@@ -4,8 +4,17 @@ environment {javareqV='21.0.9'}
 
 stages{
 
+<<<<<<< HEAD
 stage ('build')
 {
+=======
+        stage('Build') {
+            steps {
+                echo 'Building the application'
+                bat 'java --version'
+            }
+        }
+>>>>>>> bc83e8246ec336e4239704fd2f557a959d64e20b
 
 steps {
 bat 'java --version'
