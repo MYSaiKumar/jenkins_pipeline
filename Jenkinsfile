@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    JAVAREQV = '21.0.9'
+    JAVAREQV = '21.1.9'
   }
 
   stages {
